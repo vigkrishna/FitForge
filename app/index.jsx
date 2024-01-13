@@ -5,11 +5,12 @@ import { heightPercentageToDP, widthPercentageToDP } from "react-native-responsi
 import{LinearGradient} from "expo-linear-gradient"
 import { TouchableOpacity } from "react-native-gesture-handler";
 import Animated, { FadeIn, FadeOut,FadeInDown } from 'react-native-reanimated';
-
-
+import {useRouter} from "expo-router";
 
 export default function Index()
 {
+    const router = useRouter();
+    
     return(
         <View className ="flex-1 flex justify-end">
             <StatusBar style="light"/>
@@ -33,27 +34,30 @@ export default function Index()
             </Text>
          </Animated.View> 
 
-         {/* <View>
-         <TouchableOpacity
-              
-                style={{height: heightPercentageToDP(7), width: widthPercentageToDP(80)}}
-                className="bg-rose-500 flex items-center justify-center mx-auto rounded-full border-[0.5px] border-neutral-200"
-            >
-                <Text style={{fontSize: heightPercentageToDP(3)}} className="text-white font-bold tracking-widest">
-                    Get Started
-                </Text>
-            </TouchableOpacity>
-         </View> */}
 
          <Animated.View entering={FadeInDown.delay(200).springify()}>
             <TouchableOpacity
-                // onPress={()=> router.push('home')}
+                 onPress={()=>router.push('page1')}
                 style={{height: heightPercentageToDP(7), width:widthPercentageToDP(80)}}
                 className="bg-rose-500 flex items-center justify-center mx-auto rounded-full border-[2px] border-neutral-200"
             >
+                
                 <Text style={{fontSize: heightPercentageToDP(3)}} className="text-white font-bold tracking-widest">
-                    Get Started
+                    Get Started - DEMO !!
                 </Text>
+                
+            </TouchableOpacity>
+
+            <TouchableOpacity
+                //  onPress={()=>router.push('page1')}
+                style={{height: heightPercentageToDP(7), width:widthPercentageToDP(80)}}
+                className="bg-rose-500 flex items-center justify-center mx-auto my-7 rounded-full border-[2px] border-neutral-200"
+            >
+                
+                <Text style={{fontSize: heightPercentageToDP(3)}} className="text-white font-bold tracking-widest">
+                    Google SignIn
+                </Text>
+                
             </TouchableOpacity>
         </Animated.View> 
        </LinearGradient>
