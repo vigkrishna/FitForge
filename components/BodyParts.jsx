@@ -33,7 +33,7 @@ const BodyPartCard = ({item, router, index})=>{
     return (
         <Animated.View entering={FadeInDown.duration(400).delay(index*200).springify()}>
             <TouchableOpacity
-                onPress={()=> router.push({pathname: '/exercises', params: item})}
+                onPress={()=> router.push({pathname: '/page2', params: item})}
                 style={{width: wp(44), height: wp(52)}}
                 className="flex justify-end p-4 mb-4">
                     <Image 

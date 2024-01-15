@@ -47,7 +47,6 @@ export default function Comppage1() {
 
       <View>
         <ImageSlider/>
-        {/* <BodyParts/> */}
       </View>
 
       <View className="flex-1">

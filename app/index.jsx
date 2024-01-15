@@ -39,7 +39,7 @@ export default function Index()
             <TouchableOpacity
                  onPress={()=>router.push('page1')}
                 style={{height: heightPercentageToDP(7), width:widthPercentageToDP(80)}}
-                className="bg-rose-500 flex items-center justify-center mx-auto rounded-full border-[2px] border-neutral-200"
+                className="bg-rose-500 flex items-center justify-center mx-auto rounded-full border-[1px] border-neutral-200"
             >
                 
                 <Text style={{fontSize: heightPercentageToDP(3)}} className="text-white font-bold tracking-widest">
@@ -50,11 +50,11 @@ export default function Index()
 
             <TouchableOpacity
                 //  onPress={()=>router.push('page1')}
-                style={{height: heightPercentageToDP(7), width:widthPercentageToDP(80)}}
-                className="bg-rose-500 flex items-center justify-center mx-auto my-7 rounded-full border-[2px] border-neutral-200"
+                style={{height: heightPercentageToDP(10), width:widthPercentageToDP(50)}}
+                className="bg-rose-500 flex items-center justify-center mx-auto my-3 rounded-full border-[1px] border-neutral-200"
             >
                 
-                <Text style={{fontSize: heightPercentageToDP(3)}} className="text-white font-bold tracking-widest">
+                <Text style={{fontSize: heightPercentageToDP(2.5)}} className="text-white font-semibold tracking-widest">
                     Google SignIn
                 </Text>
                 
