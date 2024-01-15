@@ -25,9 +25,10 @@ export default function Index()
        >
         
         <Animated.View entering={FadeInDown.delay(100).springify()} className="flex items-center"> 
-            <Text style={{fontSize: heightPercentageToDP(5), color: 'white'}} className=" font-bold tracking-wide">
+            <Text style={{fontSize: heightPercentageToDP(5), color: 'white'}} className=" font-bold tracking-wide ">
                 Unleash Your  
-                <Text style={{color: '#cafe48'}}>Stronger Self</Text>
+                <Text style={{color: '#cafe48'}}>Stronger</Text>
+                <Text style={{color: '#cafe48'}}>Self</Text>
                
             </Text>
 
@@ -45,6 +46,10 @@ export default function Index()
                 </Text>
                 
             </TouchableOpacity>
+
+            <Text style={{justifyContent:'flex-end' ,fontSize: heightPercentageToDP(1), color: 'white'}} className="font-semibold tracking-widest mx-auto my-5">
+            ©2024 FitForge All Rights Reserved. 
+                </Text>
 
             {/* <TouchableOpacity
                 //  onPress={()=>router.push('page1')}
