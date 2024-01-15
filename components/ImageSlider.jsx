@@ -14,7 +14,7 @@ export default function ImageSlider() {
         hasParallaxImages={true}
         sliderWidth={wp(100)}
         firstItem={1}
-        autoplayInterval={4000}
+        autoplayInterval={50}
         itemWidth={wp(100)-70}
         slideStyle={{display: 'flex', alignItems: 'center'}}
     />

@@ -9,21 +9,21 @@ import BodyParts from '../components/BodyParts'
 
 export default function Comppage1() {
   return (
-    <SafeAreaView className="flex-1 bg-white flex space-y-5" edges={['top']}>
+    <SafeAreaView className="flex-1 bg-black flex space-y-5" edges={['top']}>
     <StatusBar style="dark" />
 
     
     <View className="flex-row justify-between items-center mx-5">
       <View className="space-y-2">
           <Text
-              style={{fontSize: heightPercentageToDP(4.5)}}
+              style={{fontSize: heightPercentageToDP(4.5), color: 'white'}}
               className="font-bold tracking-wider text-neutral-700"
           >
               READY TO
           </Text>
           <Text
-              style={{fontSize: heightPercentageToDP(4.5)}}
-              className="font-bold tracking-wider text-rose-500"
+              style={{fontSize: heightPercentageToDP(4.5), color: '#cafe48'}}
+              className="font-bold tracking-wider "
           >
               WORKOUT
           </Text>
@@ -33,13 +33,13 @@ export default function Comppage1() {
         <Image
         source={require('../assets/images/10.png')}
         style={{height: heightPercentageToDP(10), width:heightPercentageToDP(10)}}
-        className="rounded-full"
+        className="rounded-full "
         />
 
          <View  className="bg-neutral-200 rounded-full flex justify-center items-center border-[3px] border-neutral-300"
                 style={{height: heightPercentageToDP(5.5), width: heightPercentageToDP(5.5)}}
             >
-                <Ionicons name="notifications" size={heightPercentageToDP(3)} color="gray" />
+                <Ionicons name="notifications" size={heightPercentageToDP(3)} color="black" />
          </View>
 
    </View>

@@ -10,7 +10,7 @@ export default function _layout() {
             headerShown: false
         }}
     >
-      <Stack.Screen name="exercises" options={{
+      <Stack.Screen name="page2" options={{
         presentation: 'fullScreenModal'
       }} />
       <Stack.Screen name="exerciseDetails" options={{

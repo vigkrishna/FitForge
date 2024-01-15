@@ -10,7 +10,7 @@ export default function BodyParts() {
     const router = useRouter();
   return (
     <View className="mx-4 ">
-      <Text style={{fontSize: hp(3)}} className="font-bold text-neutral-700">
+      <Text style={{fontSize: hp(3), color:'#cafe48'}} className="font-bold text-neutral-700">
         Exercises
       </Text>
 

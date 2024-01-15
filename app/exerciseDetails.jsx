@@ -22,9 +22,9 @@ export default function exerciseDetails() {
 
         <TouchableOpacity 
             onPress={()=> router.back()}
-            className="mx-2 absolute rounded-full mt-2 right-0"
+            className="mx-2  absolute rounded-full my-12 right-0 bg-black"
         >
-            <Anticons name="closecircle" size={hp(4.5)} color="#f43f5e" />
+            <Anticons name="closecircle" size={hp(4.5)} color="#cafe48" />
         </TouchableOpacity>
 
         {/* details */}
