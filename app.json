@@ -20,11 +20,10 @@
     },
     "android": {
       "package": "com.vigkrishna.fitindia",
-  "versionCode": 1,
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-
       }
     },
     "web": {
@@ -37,6 +36,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b357332d-c514-40da-bf16-8bea2ea406e0"
+      }
     }
   }
 }

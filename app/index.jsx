@@ -4,7 +4,7 @@ import { StatusBar } from "expo-status-bar";
 import { heightPercentageToDP, widthPercentageToDP } from "react-native-responsive-screen";
 import{LinearGradient} from "expo-linear-gradient"
 import { TouchableOpacity } from "react-native-gesture-handler";
-import Animated, { FadeIn, FadeOut,FadeInDown } from 'react-native-reanimated';
+import Animated, { FadeInDown } from 'react-native-reanimated';
 import {useRouter} from "expo-router";
 
 export default function Index()
