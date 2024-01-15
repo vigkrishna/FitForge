@@ -53,8 +53,8 @@ export const bodyParts = [
 
 export const demoExercises = [
     {
-      "bodyPart": "cardio",
-      "equipment": "body weight",
+      "bodyPart": "Cardio",
+      "equipment": "Body Weight",
       "gifUrl": "https://v2.exercisedb.io/image/ZBdUybBsOJZxqq",
       "id": "3220",
       "instructions": [
@@ -65,17 +65,17 @@ export const demoExercises = [
         "Land softly with your feet shoulder-width apart, bending your knees to absorb the impact.",
         "Repeat for the desired number of repetitions."
       ],
-      "name": "astride jumps (male)",
+      "name": "Astride Jumps (male)",
       "secondaryMuscles": [
-        "quadriceps",
-        "hamstrings",
-        "calves"
+        "Quadriceps",
+        "Hamstrings",
+        "Calves"
       ],
-      "target": "cardiovascular system"
+      "target": "Cardiovascular system"
     },
     {
-      "bodyPart": "cardio",
-      "equipment": "body weight",
+      "bodyPart": "Cardio",
+      "equipment": "Body Weight",
       "gifUrl": "https://v2.exercisedb.io/image/cvknkoB1wdv77s",
       "id": "3672",
       "instructions": [
