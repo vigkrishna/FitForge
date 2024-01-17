@@ -48,7 +48,7 @@ export default function Index()
             </TouchableOpacity>
 
             <Text style={{justifyContent:'flex-end' ,fontSize: heightPercentageToDP(1), color: 'white'}} className="font-semibold tracking-widest mx-auto my-5">
-            ©2024 FitForge All Rights Reserved. 
+            ©2024 FitForge All Rights Reserved | Built by K.V
                 </Text>
 
             {/* <TouchableOpacity

@@ -2,7 +2,7 @@ import { View, Text, Image } from 'react-native'
 import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { StatusBar } from 'expo-status-bar'
-import { heightPercentageToDP, widthPercentageToDP } from 'react-native-responsive-screen'
+import { heightPercentageToDP } from 'react-native-responsive-screen'
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import ImageSlider from '../components/ImageSlider'
 import BodyParts from '../components/BodyParts'

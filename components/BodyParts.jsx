@@ -1,11 +1,56 @@
 import { View, Text, FlatList, TouchableOpacity, Image } from 'react-native'
 import React from 'react'
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
-import { bodyParts } from '../constants';
+
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import Animated, { FadeInDown } from 'react-native-reanimated';
 
+
+
+const bodyParts = [
+  {
+    name: 'waist',
+    image: require('../assets/images/2.png'),
+  },
+  {
+    name: 'upper legs',
+    image: require('../assets/images/3.png'),
+  },
+  
+  {
+    name: 'upper arms',
+    image: require('../assets/images/4.png'),
+  },
+  {
+    name: 'shoulders',
+    image: require('../assets/images/10.png'),
+  },
+  {
+    name: 'neck',
+    image: require('../assets/images/11.png'),
+  },
+  {
+    name: 'lower legs',
+    image: require('../assets/images/12.png'),
+  },
+  {
+    name: 'lower arms',
+    image: require('../assets/images/13.png'),
+  },
+  {
+    name: 'chest',
+    image: require('../assets/images/14.png'),
+  },
+  {
+    name: 'cardio',
+    image: require('../assets/images/15.png'),
+  },
+  {
+    name: 'back',
+    image: require('../assets/images/16.png'),
+  }
+]
 export default function BodyParts() {
     const router = useRouter();
   return (
